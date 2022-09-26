@@ -9,3 +9,6 @@ Padronização e produtividade. Resolver um problema antigo que são os impasses
 - Simplicidade e configurações rápidas;
 - Multi-Plataforma;
 
+## Aula 2
+- Configuração do docker em uma máquina virtual Linux
+

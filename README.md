@@ -13,7 +13,7 @@ Padronização e produtividade. Resolver um problema antigo que são os impasses
 - Configuração do docker em uma máquina virtual Linux
 
 ## Aula 3
-- Aprendendo os primeiros comandos
+Aprendendo os primeiros comandos
 ```shell
 docker --version
 ```

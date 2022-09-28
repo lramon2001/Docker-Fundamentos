@@ -14,3 +14,35 @@ Padronização e produtividade. Resolver um problema antigo que são os impasses
 
 ## Aula 3
 - Aprendendo os primeiros comandos
+```shell
+docker --version
+```
+```shell
+docker version
+```
+```shell
+docker info
+```
+```shell
+docker
+```
+```shell
+docker images
+```
+```shell
+docker container ls
+```
+```shell
+docker container ls
+```
+```shell
+docker container --all
+```
+
+```shell
+docker container ls --all
+```
+
+
+
+

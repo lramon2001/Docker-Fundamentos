@@ -12,3 +12,5 @@ Padronização e produtividade. Resolver um problema antigo que são os impasses
 ## Aula 2
 - Configuração do docker em uma máquina virtual Linux
 
+## Aula 3
+- Aprendendo os primeiros comandos

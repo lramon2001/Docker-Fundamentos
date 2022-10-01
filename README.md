@@ -43,6 +43,12 @@ docker container --all
 docker container ls --all
 ```
 
+## Aula 4
 
-
+```shell
+docker container run --publish 80:80 nginx
+```
+```shell
+docker container start IP-CONTAINER
+```
 

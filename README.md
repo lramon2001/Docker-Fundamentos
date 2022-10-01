@@ -73,6 +73,12 @@ docker container rm id_container
 Na aula 5 foi proposto um desafio que consisita, basicamente, em:
 - Criar 3 containers: nginx,mysql e httpd;
 - Executar os containers em modo detach e com nomes;
-- Executar o nginx na porta 80:80, o httpd na porta 8080:80 e o mysql na porta 3306:330;
+- Executar o nginx na porta 80:80, o httpd na porta 8080:80 e o mysql na porta 3306:3306;
 - Ao final remover todos os containers.
--
+
+## Aula 6
+Resposta ao desafio proposto
+
+```shell
+docker container run -d --publish 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD = yes mysql
+```

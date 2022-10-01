@@ -54,3 +54,17 @@ docker container start ID-CONTAINER
 ```shell
 docker container stop ID-CONTAINER
 ```
+```shell
+docker container run --name nome_desejado -d --publish n_porta:n_porta nome_da_imagem
+```
+
+```shell
+docker container logs nome_da_imagem
+```
+```shell
+docker container top nome_da_imagem
+```
+
+```shell
+docker container rm id_container
+```

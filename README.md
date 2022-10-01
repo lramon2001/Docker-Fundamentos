@@ -49,6 +49,8 @@ docker container ls --all
 docker container run --publish 80:80 nginx
 ```
 ```shell
-docker container start IP-CONTAINER
+docker container start ID-CONTAINER
 ```
-
+```shell
+docker container stop ID-CONTAINER
+```

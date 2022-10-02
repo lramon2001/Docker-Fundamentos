@@ -82,3 +82,7 @@ Resposta ao desafio proposto
 ```shell
 docker container run -d --publish 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD = yes mysql
 ```
+```shell
+docker exec -it db bash
+```
+

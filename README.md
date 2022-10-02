@@ -80,7 +80,13 @@ Na aula 5 foi proposto um desafio que consisita, basicamente, em:
 Resposta ao desafio proposto
 
 ```shell
-docker container run -d --publish 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD = yes mysql
+docker container run -d --publish 8080:80 --name db -e MYSQL_RANDOM_ROOT_PASSWORD = yes mysql
+```
+```shell
+docker container run -d --publish 8080:80 --name webserver httpd
+```
+```shell
+docker container run -d --publish 8080:81 --name name_nginx nginx
 ```
 ```shell
 docker exec -it db bash

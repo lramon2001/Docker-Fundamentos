@@ -121,11 +121,21 @@ docker push nome_image
 ```
 
 ## Aula 8
-
-### Parte 1
+Na aula 8 o professor propôs um desafio de imagens do docker
+### Parte 1 do desafio
 - Download da imagem mysql/mysql-server:5.7;
 - Download da imagem zabbix/zabbix-server-mysql;
 - Download da imagem zabbix/zabbix-web-nginx-mysql;
 - Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql;
 - Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.
- 
+### Parte 2 do desafio
+- Iniciar o container mysql-server;
+- Declarar o nome mysql-server
+- Declarar a variável MYSQL_DATABASE = "zabbix"
+- Declarar a variável MYSQL_USER = "zabbix"
+- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd"
+- Declarar a variaável MUSQL_ROOT_PASSWORD = "root_pws"
+- Utilizar a imagem mysql:5.7
+- Utilizar a formatação : --character-set-server = utf8 -- collation-server = utf8_bin
+## Parte 3 do desafio
+

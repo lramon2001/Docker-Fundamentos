@@ -116,3 +116,6 @@ docker imagem inspect name_image
 ```shell
 docker login
 ```
+```shell
+docker push nome_image
+```

@@ -138,4 +138,12 @@ Na aula 8 o professor propôs um desafio de imagens do docker
 - Utilizar a imagem mysql:5.7
 - Utilizar a formatação : --character-set-server = utf8 -- collation-server = utf8_bin
 ## Parte 3 do desafio
-
+- Iniciar o container zabbix
+- Declarar a variável DB_SERVER_HOST = "mysql-server"
+- Declarar a variável MYSQL_DATABASE = "zabbix"
+- Declarar a variável MYSQL_USER = "zabbix"
+- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd"
+- Declarar a variável MYSQL_ROOT_PASSWORD = "root_pwd"
+- Criar link para o container mysql-server:mysql
+- Expor a porta 10051:10051
+- Utilizar a imagem treinaweb/zabbix-mysql

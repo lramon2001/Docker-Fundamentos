@@ -121,6 +121,8 @@ docker push nome_image
 ```
 
 ## Aula 8
+
+### Parte 1
 - Download da imagem mysql/mysql-server:5.7;
 - Download da imagem zabbix/zabbix-server-mysql;
 - Download da imagem zabbix/zabbix-web-nginx-mysql;

@@ -94,6 +94,8 @@ docker container run -d --publish 8080:81 --name name_nginx nginx
 ```shell
 docker container rm id_httpd id_nginx id_mysql
 ```
+## Aula 7
 
-
-
+- Entendendo o que é uma imagem Docker;
+- Utilizando o Docker Hub Registry
+- Gerenciando imagens locais

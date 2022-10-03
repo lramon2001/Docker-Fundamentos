@@ -89,7 +89,7 @@ docker exec -it db bash
 docker container run -d --publish 8080:80 --name webserver httpd
 ```
 ```shell
-docker container run -d --publish 8080:81 --name name_nginx nginx
+docker container run -d --publish 8080:81 --name proxy nginx
 ```
 ```shell
 docker container rm id_httpd id_nginx id_mysql

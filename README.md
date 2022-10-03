@@ -7,10 +7,10 @@ Docker Fundamentos  :books: :whale:-Repositório criado para estudar docker
 Padronização e produtividade. Resolver um problema antigo que são os impasses entre desenvolvedor e o time de infraestrutura (na minha máquina funciona).
 
 - Simplicidade e configurações rápidas;
-- Multi-Plataforma;
+- Multi-Plataforma.
 
 ## Aula 2
-- Configuração do docker em uma máquina virtual Linux
+- Configuração do docker em uma máquina virtual Linux.
 
 ## Aula 3
 Aprendendo os primeiros comandos
@@ -97,8 +97,8 @@ docker container rm id_httpd id_nginx id_mysql
 ## Aula 7
 
 - Entendendo o que é uma imagem Docker;
-- Utilizando o Docker Hub Registry
-- Gerenciando imagens locais
+- Utilizando o Docker Hub Registry;
+- Gerenciando imagens locais.
 
 ```shell
 docker pull imagem
@@ -130,20 +130,33 @@ Na aula 8 o professor propôs um desafio de imagens do docker
 - Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.
 ### Parte 2 do desafio
 - Iniciar o container mysql-server;
-- Declarar o nome mysql-server
-- Declarar a variável MYSQL_DATABASE = "zabbix"
-- Declarar a variável MYSQL_USER = "zabbix"
-- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd"
-- Declarar a variaável MUSQL_ROOT_PASSWORD = "root_pws"
-- Utilizar a imagem mysql:5.7
-- Utilizar a formatação : --character-set-server = utf8 -- collation-server = utf8_bin
+- Declarar o nome mysql-server;
+- Declarar a variável MYSQL_DATABASE = "zabbix";
+- Declarar a variável MYSQL_USER = "zabbix";
+- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd";
+- Declarar a variaável MUSQL_ROOT_PASSWORD = "root_pwd";
+- Utilizar a imagem mysql:5.7;
+- Utilizar a formatação : --character-set-server = utf8 -- collation-server = utf8_bin.
 ## Parte 3 do desafio
-- Iniciar o container zabbix
-- Declarar a variável DB_SERVER_HOST = "mysql-server"
-- Declarar a variável MYSQL_DATABASE = "zabbix"
-- Declarar a variável MYSQL_USER = "zabbix"
-- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd"
-- Declarar a variável MYSQL_ROOT_PASSWORD = "root_pwd"
-- Criar link para o container mysql-server:mysql
-- Expor a porta 10051:10051
-- Utilizar a imagem treinaweb/zabbix-mysql
+- Iniciar o container zabbix;
+- Declarar a variável DB_SERVER_HOST = "mysql-server";
+- Declarar a variável MYSQL_DATABASE = "zabbix";
+- Declarar a variável MYSQL_USER = "zabbix";
+- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd";
+- Declarar a variável MYSQL_ROOT_PASSWORD = "root_pwd";
+- Criar link para o container mysql-server:mysql;
+- Expor a porta 10051:10051;
+- Utilizar a imagem treinaweb/zabbix-mysql.
+
+## Parte 4 do desafio
+- Declarar o nome nginx;
+- Declarar a variável DB_SERVER_HOST = "mysql-server";
+- Declarar a variável MYSQL_DATABASE = "zabbix";
+- Declarar a variável MYSQL_USER = "zabbix";
+- Declarar a variável MYSQL_PASSWORD = "zabbix_pwd";
+- Declarar a variável MYSQL_ROOT_PASSWORD = "root_pwd";
+- Criar o link para o container mysql-server:mysql;
+- Criar o link para o container zabbix;
+- Expor a porta 80:80;
+- Utilizar a imagem treinaweb/zabbix-nginx.
+

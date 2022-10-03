@@ -99,3 +99,11 @@ docker container rm id_httpd id_nginx id_mysql
 - Entendendo o que é uma imagem Docker;
 - Utilizando o Docker Hub Registry
 - Gerenciando imagens locais
+
+```shell
+docker pull imagem
+```
+
+```shell
+docker pull imagem:version
+```

@@ -119,3 +119,11 @@ docker login
 ```shell
 docker push nome_image
 ```
+
+## Aula 8
+- Download da imagem mysql/mysql-server:5.7;
+- Download da imagem zabbix/zabbix-server-mysql;
+- Download da imagem zabbix/zabbix-web-nginx-mysql;
+- Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql;
+- Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.
+ 

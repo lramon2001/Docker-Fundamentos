@@ -113,3 +113,6 @@ docker imagem history name_image
 ```shell
 docker imagem inspect name_image
 ```
+```shell
+docker login
+```

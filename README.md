@@ -107,3 +107,6 @@ docker pull imagem
 ```shell
 docker pull imagem:version
 ```
+```shell
+docker imagem history name_image
+```

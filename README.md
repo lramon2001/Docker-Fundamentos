@@ -126,7 +126,7 @@ Na aula 8 o professor propôs um desafio de imagens do docker
 - Download da imagem mysql/mysql-server:5.7;
 - Download da imagem zabbix/zabbix-server-mysql;
 - Download da imagem zabbix/zabbix-web-nginx-mysql;
-- Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql;
+- Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-server-mysql;
 - Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.
 ### Parte 2 do desafio
 - Iniciar o container mysql-server;
@@ -181,7 +181,7 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
 1.4-Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql
 
 ```shell
-  docker image tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql
+  docker image tag zabbix/zabbix-server-mysql treinaweb/zabbix-server-mysql`
 
 ```
 1.5-Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.

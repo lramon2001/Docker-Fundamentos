@@ -231,7 +231,7 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
 ```
 ## Aula 10
 Na aula 10 foi debatido como fazer o upload de uma imagem para o dockerhub
-``shell
+```shell
 
 docker push nome_da_imagem
 

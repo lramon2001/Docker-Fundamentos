@@ -178,3 +178,14 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
 ```
   docker imagem pull zabbix/zabbix-web-nginx-mysql
 ```
+1.4-Realizar a tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql
+
+```shell
+  docker image tag zabbix/zabbix-server-mysql treinaweb/zabbix-mysql
+
+```
+1.5-Realizar a tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx.
+
+```shell
+  docker image tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx
+```

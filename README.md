@@ -189,7 +189,7 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
 ```shell
   docker image tag zabbix/zabbix-web-nginx-mysql treinaweb/zabbix-nginx
 ```
-2.1-Iniciar o container mysql-server e criar as variaveis pedidas
+2.1-Iniciar o container mysql-server,nomear e criar as variaveis pedidas
 
 ```shell
   docker run --name mysql-server -t\

@@ -217,7 +217,7 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
 ```
 4-Iniciar o container zabbix,nomear e criar as variaveis pedidas
 
-``shell
+```shell
   docker run --name nginx -t\
   e DB_SERVER_HOST = "mysql-server" \
     -e MYSQL_DATABASE="zabbix" \
@@ -228,5 +228,4 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
      --link zabbix \
      -p 80:80 \
      -d treinaweb/zabbix-nginx
- 
 ```

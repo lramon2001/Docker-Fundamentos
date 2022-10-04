@@ -213,5 +213,20 @@ A aula 9 foi, basicamente, uma resposta ao desafio proposto.
     -e MYSQL_ROOT_PASSWORD = "root_pwd" \
     --link mysql-server:mysql \
     -p 10051:10051 \
-    -d treinaweb\ zabbix-mysql
+    -d treinaweb/zabbix-mysql
+```
+4-Iniciar o container zabbix,nomear e criar as variaveis pedidas
+
+``shell
+  docker run --name nginx -t\
+  e DB_SERVER_HOST = "mysql-server" \
+    -e MYSQL_DATABASE="zabbix" \
+    -e MYSQL_USER="zabbix" \
+    -e MYSQL_PASSWORD = "zabbiz_pwd" \
+    -e MYSQL_ROOT_PASSWORD = "root_pwd" \
+     --link mysql-server:mysql \
+     --link zabbix \
+     -p 80:80 \
+     -d treinaweb/zabbix-nginx
+ 
 ```

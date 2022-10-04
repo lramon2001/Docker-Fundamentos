@@ -134,7 +134,7 @@ Na aula 8 o professor propôs um desafio de imagens do docker
 - Declarar a variável MYSQL_DATABASE = "zabbix";
 - Declarar a variável MYSQL_USER = "zabbix";
 - Declarar a variável MYSQL_PASSWORD = "zabbix_pwd";
-- Declarar a variaável MUSQL_ROOT_PASSWORD = "root_pwd";
+- Declarar a variaável MYSQL_ROOT_PASSWORD = "root_pwd";
 - Utilizar a imagem mysql:5.7;
 - Utilizar a formatação : --character-set-server = utf8 -- collation-server = utf8_bin.
 ## Parte 3 do desafio

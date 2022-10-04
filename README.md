@@ -160,3 +160,21 @@ Na aula 8 o professor propôs um desafio de imagens do docker
 - Expor a porta 80:80;
 - Utilizar a imagem treinaweb/zabbix-nginx.
 
+## Aula 9
+A aula 9 foi, basicamente, uma resposta ao desafio proposto.
+
+1.1-Download da imagem mysql/mysql-server:5.7
+
+```shell
+  docker image pull mysql/mysql-server:5.7
+```
+1.2-Download da imagem zabbix/zabbix-server-mysql
+
+```shell
+  docker imagem pull zabbix/zabbix-server-mysql
+```
+1.3-Download da imagem zabbix/zabbix-web-nginx-mysql
+
+```
+  docker imagem pull zabbix/zabbix-web-nginx-mysql
+```
